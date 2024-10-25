@@ -15,3 +15,4 @@ config/description="A silly game made for a school friend"
 run/main_scene="res://Scenes and Scripts/World/world.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
 config/icon="res://Assets/icon.svg"
+config/tags=PackedStringArray("2d", "silly")
