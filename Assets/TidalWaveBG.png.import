@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b6n1nenyssej0"
-path="res://.godot/imported/image-removebg-preview (25).png-5372e837ff835190adfb6a79e28af6ab.ctex"
+uid="uid://otu12fplma1a"
+path="res://.godot/imported/TidalWaveBG.png-9d5abedfcc57bad138cb2014cf9fb738.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://image-removebg-preview (25).png"
-dest_files=["res://.godot/imported/image-removebg-preview (25).png-5372e837ff835190adfb6a79e28af6ab.ctex"]
+source_file="res://Assets/TidalWaveBG.png"
+dest_files=["res://.godot/imported/TidalWaveBG.png-9d5abedfcc57bad138cb2014cf9fb738.ctex"]
 
 [params]
 

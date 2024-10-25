@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://8u1lx3mt8kah"
-path="res://.godot/imported/Boat.webp-7bf38515de5ae7e5a18e83b53acc42bc.ctex"
+uid="uid://cyr201pmrwa2c"
+path="res://.godot/imported/image-removebg-preview (26).png-65024b429e01a0f31df02055e9170db9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Boat.webp"
-dest_files=["res://.godot/imported/Boat.webp-7bf38515de5ae7e5a18e83b53acc42bc.ctex"]
+source_file="res://Assets/image-removebg-preview (26).png"
+dest_files=["res://.godot/imported/image-removebg-preview (26).png-65024b429e01a0f31df02055e9170db9.ctex"]
 
 [params]
 
