@@ -1,0 +1,96 @@
+[gd_scene load_steps=6 format=3 uid="uid://cxv2y0s5e14nr"]
+
+[ext_resource type="Texture2D" uid="uid://8u1lx3mt8kah" path="res://Boat.webp" id="1_etkth"]
+[ext_resource type="Script" path="res://world.gd" id="1_w7re4"]
+[ext_resource type="Texture2D" uid="uid://otu12fplma1a" path="res://Screenshot 2024-10-25 2.42.00 PM.png" id="2_2ccq3"]
+[ext_resource type="Texture2D" uid="uid://cyr201pmrwa2c" path="res://image-removebg-preview (26).png" id="3_r4dac"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_gopqg"]
+load_path = "res://.godot/imported/image-removebg-preview (24).png-5ad338c8126316ae239bbc8b4a5bd86c.ctex"
+
+[node name="World" type="Node2D"]
+script = ExtResource("1_w7re4")
+
+[node name="BG" type="Sprite2D" parent="."]
+position = Vector2(542, 350)
+scale = Vector2(0.895833, 0.895833)
+texture = ExtResource("2_2ccq3")
+
+[node name="Boat" type="Sprite2D" parent="."]
+position = Vector2(532, 420)
+rotation = -0.0872665
+scale = Vector2(0.489796, 0.489796)
+texture = ExtResource("1_etkth")
+
+[node name="Bean" type="Sprite2D" parent="Boat"]
+show_behind_parent = true
+position = Vector2(-136.792, 218.458)
+rotation = 0.159312
+scale = Vector2(0.351675, 0.351675)
+texture = SubResource("CompressedTexture2D_gopqg")
+
+[node name="Bean2" type="Sprite2D" parent="Boat"]
+show_behind_parent = true
+position = Vector2(-269.5, 222.542)
+rotation = -0.148107
+scale = Vector2(0.28103, 0.378663)
+texture = SubResource("CompressedTexture2D_gopqg")
+
+[node name="Bean3" type="Sprite2D" parent="Boat"]
+show_behind_parent = true
+position = Vector2(263.375, 204.167)
+rotation = -2.94595
+scale = Vector2(0.351675, 0.351675)
+texture = SubResource("CompressedTexture2D_gopqg")
+flip_v = true
+
+[node name="Bean4" type="Sprite2D" parent="Boat"]
+show_behind_parent = true
+position = Vector2(77.5834, 206.208)
+rotation = -3.07458
+scale = Vector2(0.250794, 0.250794)
+texture = SubResource("CompressedTexture2D_gopqg")
+flip_v = true
+
+[node name="Water" type="Node2D" parent="."]
+position = Vector2(0, -40)
+
+[node name="Water" type="Sprite2D" parent="Water"]
+modulate = Color(0, 1, 1, 1)
+position = Vector2(515.076, 589.75)
+scale = Vector2(6, 6)
+texture = ExtResource("3_r4dac")
+
+[node name="Water2" type="Sprite2D" parent="Water"]
+modulate = Color(1, 0, 1, 1)
+position = Vector2(507.076, 621.75)
+scale = Vector2(6, 6)
+texture = ExtResource("3_r4dac")
+
+[node name="Water3" type="Sprite2D" parent="Water"]
+modulate = Color(0, 1, 1, 1)
+position = Vector2(491.076, 653.75)
+scale = Vector2(6, 6)
+texture = ExtResource("3_r4dac")
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -416.0
+offset_top = 587.0
+offset_right = 1291.0
+offset_bottom = 706.0
+grow_horizontal = 2
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="."]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -121.0
+offset_top = -81.0
+offset_right = 1586.0
+offset_bottom = 38.0
+grow_horizontal = 2
+color = Color(0, 0, 0, 1)
